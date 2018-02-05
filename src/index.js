@@ -109,5 +109,5 @@ export default grapesjs.plugins.add('grapesjs-tabs', (editor, opts = {}) => {
   loadBlocks(editor, options);
 
   // TODO Remove
-  editor.on('load', () => editor.addComponents(`<div style="margin:0 100px; padding:25px;">Content loaded from the plugin</div>`))
+ /*  editor.on('load', () => editor.addComponents(`<div style="margin:0 100px; padding:25px;">Content loaded from the plugin</div>`)) */
 });
